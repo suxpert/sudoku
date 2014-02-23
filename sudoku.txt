@@ -1,0 +1,118 @@
+# This is a sample data file for sudoku (9x9).
+
+# Anything after a `#' are treated as comments, until the line finished.
+# Every single line must have NINE numbers(0-9) before line ended,
+# any other characters can be used in the line or between lines for separation.
+# As we know, NINE lines make a complete sudoku, after that,
+# a `double-%' symbol is suggested for separation between different sudokus.
+# This symbol MUST be at the beginning of a line, as is used below.
+
+%%
+# 900 000 000
+# 004 009 020
+# 103 060 500
+# 
+# 800 700 030
+# 000 314 000
+# 030 006 004
+#
+# 002 050 806
+# 060 200 400
+# 000 000 007
+
+# 800 900 020
+# 200 004 700
+# 001 070 500
+#
+# 000 108 005
+# 002 000 400
+# 100 605 000
+# 
+# 009 010 800
+# 006 700 002
+# 010 003 007
+
+%%
+
+# 100 902 000
+# 050 408 070
+# 860 050 200
+# 
+# 002 180 907
+# 701 000 502
+# 605 029 400
+# 
+# 008 090 024
+# 020 806 010
+# 000 204 008
+
+%%
+
+# 400 902 030
+# 000 006 107
+# 610 007 400
+# 
+# 040 003 890
+# 805 069 000
+# 002 800 003
+# 
+# 000 005 700
+# 070 090 002
+# 020 004 080
+
+%%
+
+# 010 908 600
+# 869 170 000
+# 730 020 000
+# 
+# 100 006 500
+# 040 001 006
+# 000 047 080
+# 
+# 000 039 000
+# 000 005 024
+# 350 760 000
+
+7 0 0	4 0 9	5 0 0 # 0 stands for the blank.
+0 4 0	1 2 0	0 0 0	|	 0 0 0	0 0 0	0 4 8
+# multi-lines can be joined as one line
+
+ 070 | 060 | 900 # this is a valid line too.
+ 020 | 000 | 080
+ 006---040oOo010 # letters can also be used but is NOT recommended.
+
+6 8 0	0 0 0	0 0 0
+0 0 0	0 5 1	0 3 0
+0 0 3	7 0 4	0 0%2any %% inside a line is NOT a separator, this sentence can also be treated as comments, but we don't recommend that.
+
+%%
+
+# 900 030 040
+# 812 070 000
+# 000 000 500
+# 
+# 050 000 279
+# 000 509 000
+# 491 000 080
+# 
+# 004 000 000
+# 000 010 496
+# 060 020 001
+
+%%
+
+# 1 2 0	7 0 0	0 0 5
+# 0 9 6	3 0 0	7 0 1
+# 0 0 0	0 0 0	0 0 0
+# 
+# 2 0 0	0 4 5	1 0 0
+# 0 0 9	0 0 0	8 0 0
+# 0 0 5	1 6 0	0 0 9
+# 
+# 0 0 0	0 0 0	0 0 0
+# 3 0 1	0 0 2	5 4 0
+# 5 0 0	0 0 7	0 1 6
+
+%%
+
